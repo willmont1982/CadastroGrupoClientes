@@ -1,7 +1,7 @@
 # Aplicação para Cadastro de Grupo de Clientes 
 
 # Cliente 
-Cadastro de Grupo de Clientes [Angular 7, SpringBoot]
+Cadastro de Grupo de Clientes [Angular 7, SpringBoot, JPA com Arquitetura Maven, MySql/OAuh2, Autenticação JWT Token]
 
 # Usuários
  ## ADMIN
@@ -19,7 +19,7 @@ Cadastro de Grupo de Clientes [Angular 7, SpringBoot]
  - Spring Boot
  - Sprint Security
  - OAuth2
- - JAVA Spring Data JPA
+ - JAVA EE Spring Data JPA
  - Hibernate Envers 
 ## Considereções
  - testado com banco de dados H2 e Mysql.
