@@ -1,11 +1,13 @@
-# Cliente Manager
-Cadastro de Cliente [Angular 7, SpringBoot, OAuth2]
+# Aplicação para Cadastro de Grupo de Clientes 
+
+# Cliente 
+Cadastro de Grupo de Clientes [Angular 7, SpringBoot]
 
 # Usuários
  ## ADMIN
  - user: admin
  - pass: 123456
- - role: ADMIN (consulta, alterção, exclusão)
+ - role: ADMIN (consulta, alterção, exclusão dos dados)
  ## COMUM
  - user: comum
  - pass: 123456
@@ -17,14 +19,34 @@ Cadastro de Cliente [Angular 7, SpringBoot, OAuth2]
  - Spring Boot
  - Sprint Security
  - OAuth2
- - Spring Data JPA
- - Hibernate Envers (Auditoria)
+ - JAVA Spring Data JPA
+ - Hibernate Envers 
 ## Considereções
  - testado com banco de dados H2 e Mysql.
  - TODO - implementar testes unitários
- - executar: mvnw spring-boot:run
+  ## executar Shell Linux: mvnw spring-boot:run
 
 # Frontend:
+  ## Tecnologias (AngularCLI)
+# Executar no Shell do Linux:  
 - npm install
 - npm install -g @angular/cli 
 - ng s -o
+
+# Mapa da Aplicação:
+- Criar tela de login, com usuário e senha (fixo).
+- Criar cadastro de Grupo de Clientes contendo: nome e ativo.
+- Criar um cadastro de clientes contendo: 
+      a) nome, obrigatório;
+      b) tipo (pessoa física ou jurídica), obrigatório;
+      c) CPF (se pessoa física) ou CNPJ (se pessoa jurídica), obrigatório;
+      d) RG (se pessoa física) ou IE (se pessoa jurídica);
+      e) Data de Cadastro;
+      f) Grupo: Permitir selecionar somente uma opção.
+      g) Ativo (se está ativo);     
+      h) Telefone, contendo ddd e número, permitir adicionar mais do que um e remover os adicionados. (Mestre Detalhe)
+      i) Ao gravar validar se já existe um cliente cadastrado com o CPF/CNPJ informado.
+- Criar uma tela para consulta dos clientes e grupo de clientes permitindo:
+      a) Filtrar por nome e/ou somente ativos.
+      b) Incluir, alterar e excluir.
+
