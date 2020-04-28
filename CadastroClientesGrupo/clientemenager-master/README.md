@@ -40,7 +40,7 @@ Cadastro de Grupo de Clientes [Angular 7, SpringBoot, JPA com Arquitetura Maven,
  - Hibernate Envers 
 ## Considereções
  - testado com banco de dados H2 e Mysql.
- - TODO - implementar testes unitários
+ - testado com TDD local
   ## executar Shell Linux: mvnw spring-boot:run
 
 # Frontend:
