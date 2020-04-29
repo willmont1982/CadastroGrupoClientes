@@ -3,7 +3,7 @@
 # Cliente 
 Cadastro de Grupo de Clientes [Angular 7, SpringBoot, JPA com Arquitetura Maven, MySql/OAuh2, Autenticação JWT Token]
 Você pode acessar ele pelo [ProjetoCadastroPessoa](https://encurtador.com.br/aptAL)
-Você pode acessar ele pelo [ProjetoCadastroPessoa](https://encurtador.com.br/wELR2)
+Você pode acessar ele pelo [ProjetoCadastroPessoa](https://encurtador.com.br/gEFIL/encurtador.com.br/wELR2)
 
 # Mapa da Aplicação:
 - Criar tela de login, com usuário e senha (fixo).
