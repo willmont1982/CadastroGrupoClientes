@@ -2,7 +2,7 @@
 
 # Cliente 
 Cadastro de Grupo de Clientes [Angular 7, SpringBoot, JPA com Arquitetura Maven, MySql/OAuh2, Autenticação JWT Token]
-Você pode acessar ele pelo [ProjetoCadastroPessoa](https://giordanna.github.io/projeto-cadastro-pessoa/)
+Você pode acessar ele pelo [ProjetoCadastroPessoa](encurtador.com.br/aptAL)
 
 
 # Mapa da Aplicação:
