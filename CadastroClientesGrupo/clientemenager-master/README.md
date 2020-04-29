@@ -1,5 +1,4 @@
 # Aplicação para Cadastro de Grupo de Clientes 
-# FRONT-END: Acesse Aplicação aqui [ProjetoCadastroPessoa](https://185.199.110.1531/)
 
 # Cliente 
 Cadastro de Grupo de Clientes [Angular 7, SpringBoot, JPA com Arquitetura Maven, MySql/OAuh2, Autenticação JWT Token]
